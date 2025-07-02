@@ -17,8 +17,7 @@ env: flex
 entrypoint: gunicorn -b :$PORT main:app
 
 runtime_config:
-  operating_system: "ubuntu22"
-  runtime_version: "3.13"
+    operating_system: "ubuntu22"
 
 endpoints_api_service:
   # This is a template. Use the deploy_app.sh script to deploy this app.
