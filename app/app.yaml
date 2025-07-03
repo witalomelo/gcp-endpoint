@@ -20,6 +20,10 @@ runtime_config:
     operating_system: "ubuntu22"
 
 endpoints_api_service:
-  # This is a template. Use the deploy_app.sh script to deploy this app.
   name: lab-endpoints-464600.appspot.com
   rollout_strategy: managed
+
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 2
+  cool_down_period_sec: 120
