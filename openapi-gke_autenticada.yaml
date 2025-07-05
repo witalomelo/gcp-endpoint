@@ -18,10 +18,7 @@ info:
   description: "Get the name of an airport from its three-letter IATA code."
   version: "1.0.0"
 # This field will be replaced by the deploy_api.sh script.
-host: "airport.endpoints.rmerceslabsteste07.cloud.goog"
-x-google-endpoints:
-- name: "airport.endpoints.rmerceslabsteste07.cloud.goog"
-  target: "35.231.142.183"
+host: "airport.endpoints.useful-ward-464800-t5.cloud.goog"
 schemes:
   - "https"
 security:
