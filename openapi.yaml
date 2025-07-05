@@ -18,7 +18,8 @@ info:
   description: "Get the name of an airport from its three-letter IATA code."
   version: "1.0.0"
 # This field will be replaced by the deploy_api.sh script.
-host: "lab-endpoints-464600.appspot.com"
+# host: "useful-ward-464800-t5.appspot.com"
+host: "airportname.endpoints.useful-ward-464800-t5.cloud.goog"
 schemes:
   - "https"
 paths:

@@ -44,7 +44,7 @@ spec:
         args: [
           "--http_port=8081",
           "--backend=127.0.0.1:8080",
-          "--service=airport.endpoints.rmerceslabsteste07.cloud.goog",
+          "--service=airport.endpoints.useful-ward-464800-t5.cloud.goog",
           "--rollout_strategy=managed",
         ]
       # [END esp]
