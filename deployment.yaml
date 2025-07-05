@@ -26,12 +26,15 @@ spec:
     app: esp-airportnames
   type: LoadBalancer
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: esp-airportnames
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: esp-airportnames
   template:
     metadata:
       labels:
